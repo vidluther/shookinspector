@@ -6,7 +6,7 @@ const logger = require('morgan')
 
 const indexRouter = require('./routes/index')
 const usersRouter = require('./routes/users')
-const webhooksRouter = require('./routes/webhooks')
+
 const app = express()
 
 app.use(logger('dev'))
