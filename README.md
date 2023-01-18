@@ -12,7 +12,9 @@ I needed a way to test sending calls to a Webhook, but the data I needed to send
 1. Clone the repo
 2. Copy the env.sample to .env
 3. Edit the .env (set the port you want it to run on)
-4. Edit the routes/index.js file and set whatever route/method you want
+4. Edit the routes/index.js file and set whatever route/method you want, and whatever response you want to set for it.
 5. ```npm start```
 
 Configure your app to send requests to http://localhost:9000 or whatever port you set in the .env file.
+
+As of right now, any request you sent is output to the console.log, so that's pretty much it. Eventually I'll have a way for you to inspect the details of the request.
