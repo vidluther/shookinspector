@@ -13,8 +13,12 @@ router.get('/webhooks', function (req, res, next) {
 /* POST to Integromat. */
 router.post('/webhooks/integromat', function (req, res, next) {
   console.log(req.body)
+  // make it look like it's taking a while
+  // cuz integromat takes it's time sometimes
+  setTimeout(function() {
+    res.send('Accepted')
+  }, 1000);
 
-  res.send('Accepted')
 })
 
 function returnAccepted () {
