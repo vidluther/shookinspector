@@ -17,7 +17,7 @@ router.post('/webhooks/integromat', function (req, res, next) {
   // cuz integromat takes it's time sometimes
   setTimeout(function() {
     res.send('Accepted')
-  }, 1000);
+  }, 500);
 
 })
 
