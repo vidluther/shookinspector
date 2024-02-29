@@ -1,4 +1,4 @@
-# Webhooks.node
+# Secure Hook Inspector
 
 This is my attempt at building an app that acts like https://webhook.site, but it can be run locally and is built on NodeJS (Express)
 and [Prisma](https://prisma.io).
